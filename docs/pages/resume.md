@@ -22,7 +22,7 @@ weight: 2
     <article class="experience-card"><div class="item-icon" aria-hidden="true"><span class="item-dot"></span></div><div><div class="item-heading"><h3>Cofounding R&D Member</h3><span>Apr 2026–present</span></div><p class="organization">Adam Biotech · Seattle, WA</p><p>Developing bioprinting equipment with a student-led startup that advanced to the Sweet 16 of the UW Dempsey Startup Competition.</p></div></article>
     <article class="experience-card"><div class="item-icon" aria-hidden="true"><span class="item-dot"></span></div><div><div class="item-heading"><h3>JUPITER Undergraduate Researcher</h3><span>Sep 2024–Jun 2025</span></div><p class="organization">UW Institute for Protein Design</p><p>Designed and tested phosphorylation-inducible heterodimers with Kathryn Shelley and Cullen Demakis.</p></div></article>
     <article class="experience-card"><div class="item-icon" aria-hidden="true"><span class="item-dot"></span></div><div><div class="item-heading"><h3>Undergraduate Researcher</h3><span>Jun–Sep 2024</span></div><p class="organization">UW Medicine Zheng Lab</p><p>Modeled microscopic functional intravascular topologies with Dr. Sam Reyner.</p></div></article>
-    <article class="experience-card"><div class="item-icon" aria-hidden="true"><span class="item-dot"></span></div><div><div class="item-heading"><h3>Research Researcher</h3><span>Jul–Aug 2021</span></div><p class="organization">OHSU Nakayama Lab · Portland, OR</p><p>Converted an open-source Voron 3D printer into a bioprinter and developed autonomous fabrication methods for shear-induced scaffolding material.</p></div></article>
+    <article class="experience-card"><div class="item-icon" aria-hidden="true"><span class="item-dot"></span></div><div><div class="item-heading"><h3>Researcher</h3><span>Jul–Aug 2021</span></div><p class="organization">OHSU Nakayama Lab · Portland, OR</p><p>Converted an open-source Voron 3D printer into a bioprinter and developed autonomous fabrication methods for shear-induced scaffolding material.</p></div></article>
   </div>
 </section>
 
@@ -32,7 +32,7 @@ weight: 2
   <div class="capability-grid">
     <article><div class="simple-mark" aria-hidden="true"></div><h3>Computational design</h3><p>Python · NumPy · SciPy · PyRosetta · MATLAB · Bash</p><small>Applied in protein-design pipelines, vascular modeling, statistical analysis, and machine learning.</small></article>
     <article><div class="simple-mark" aria-hidden="true"></div><h3>Molecular & cell biology</h3><p>DNA purification · GGA · colony PCR · bacterial and mammalian culture</p><small>Applied across IPD and UW iGEM research.</small></article>
-    <article><div class="simple-mark" aria-hidden="true"></div><h3>Characterization</h3><p>Protein purification · two-photon microscopy · flourescence microscopy · circular dichroism</p><small>Applied to protein assemblies, biomaterials, and experimental assay validation.</small></article>
+    <article><div class="simple-mark" aria-hidden="true"></div><h3>Characterization</h3><p>Protein purification · two-photon microscopy · fluorescence microscopy · circular dichroism</p><small>Applied to protein assemblies, biomaterials, and experimental assay validation.</small></article>
     <article><div class="simple-mark" aria-hidden="true"></div><h3>Engineering systems</h3><p>CAD · COMSOL · Java · C++ · GCode</p><small>Applied to biofabrication, transport coursework, and competitive robotics.</small></article>
   </div>
 </section>
