@@ -14,7 +14,7 @@ permalink: /
   <div class="hero-copy wow animated fadeInUp">
     <h1>Yi Nathen Qing</h1>
     <p class="lead">Hi, I’m Nathen! I’m a Bioengineering student at the <a href="https://www.washington.edu/" target="_blank" rel="noopener">University of Washington</a>. I spend most of my research time thinking about how we can design proteins on a computer, make them in the lab, and get them to do something useful.</p>
-    <p>Right now, I’m working in the UW Baker Lab on the De Novo Design of Electron and Energy Conductive Protein Nanowires. Before that, I’ve bounced between synthetic biology, biomaterials, bioprinting, vascular modeling, and robotics—which is probably a good summary of how easily I get interested in new problems.</p>
+    <p>Right now, I’m working in the <a href="https://www.bakerlab.org/" target="_blank" rel="noopener">UW Baker Lab</a> on the De Novo Design of Electron and Energy Conductive Protein Nanowires. Before that, I’ve bounced between synthetic biology, biomaterials, bioprinting, vascular modeling, and robotics.</p>
     <p>Outside the lab, I like hiking, playing Minecraft, doing trivia, and exploring Seattle with friends. I’m always happy to talk about research, strange biological systems, or an unnecessarily elaborate Minecraft build.</p>
     <div class="hero-actions">
       <a class="btn btn-primary" href="{{ '/research/' | relative_url }}">See what I’m working on</a>
