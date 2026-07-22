@@ -7,7 +7,7 @@ permalink: /
 <section class="hero-row home-hero">
   <div class="portrait-wrap wow animated fadeIn">
     <div class="portrait portrait-placeholder">
-      <img class="profile-photo" src="{{ '/assets/photos/profile.jpg' | relative_url }}" alt="Portrait of Yi Nathen Qing" onload="this.nextElementSibling.hidden=true" onerror="this.hidden=true">
+      <img class="profile-photo" src="{{ '/assets/photos/profile.jpeg' | relative_url }}" alt="Portrait of Yi Nathen Qing" onload="this.nextElementSibling.hidden=true" onerror="this.hidden=true">
       <span aria-hidden="true">NQ</span>
     </div>
   </div>
