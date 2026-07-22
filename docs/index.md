@@ -6,7 +6,10 @@ permalink: /
 
 <section class="hero-row home-hero">
   <div class="portrait-wrap wow animated fadeIn">
-    <div class="portrait portrait-placeholder" role="img" aria-label="Portrait placeholder for Yi Nathen Qing"><span>NQ</span></div>
+    <div class="portrait portrait-placeholder">
+      <img class="profile-photo" src="{{ '/assets/photos/profile.jpg' | relative_url }}" alt="Portrait of Yi Nathen Qing" onload="this.nextElementSibling.hidden=true" onerror="this.hidden=true">
+      <span aria-hidden="true">NQ</span>
+    </div>
   </div>
   <div class="hero-copy wow animated fadeInUp">
     <h1>Yi Nathen Qing</h1>
@@ -34,9 +37,9 @@ permalink: /
 <section class="outside-lab home-life" aria-labelledby="outside-heading">
   <h2 id="outside-heading">A few things beyond research</h2>
   <div class="photo-grid">
-    <figure class="photo-placeholder"><div><img src="{{ '/assets/photos/hiking.jpg' | relative_url }}" alt="Nathen hiking" onload="this.nextElementSibling.hidden=true" onerror="this.hidden=true"><span>Photo 01</span></div><figcaption>Hiking</figcaption></figure>
-    <figure class="photo-placeholder"><div><img src="{{ '/assets/photos/minecraft.jpg' | relative_url }}" alt="One of Nathen's Minecraft builds" onload="this.nextElementSibling.hidden=true" onerror="this.hidden=true"><span>Photo 02</span></div><figcaption>Minecraft builds</figcaption></figure>
-    <figure class="photo-placeholder"><div><img src="{{ '/assets/photos/trivia.jpg' | relative_url }}" alt="Nathen at trivia night" onload="this.nextElementSibling.hidden=true" onerror="this.hidden=true"><span>Photo 03</span></div><figcaption>Trivia nights</figcaption></figure>
-    <figure class="photo-placeholder"><div><img src="{{ '/assets/photos/seattle.jpg' | relative_url }}" alt="Nathen exploring Seattle" onload="this.nextElementSibling.hidden=true" onerror="this.hidden=true"><span>Photo 04</span></div><figcaption>Life around Seattle</figcaption></figure>
+    <figure class="photo-placeholder"><div><img src="{{ '/assets/photos/hiking.jpeg' | relative_url }}" alt="Nathen hiking" onload="this.nextElementSibling.hidden=true" onerror="this.hidden=true"><span>Photo 01</span></div><figcaption>Hiking</figcaption></figure>
+    <figure class="photo-placeholder"><div><img src="{{ '/assets/photos/minecraft.jpeg' | relative_url }}" alt="One of Nathen's Minecraft builds" onload="this.nextElementSibling.hidden=true" onerror="this.hidden=true"><span>Photo 02</span></div><figcaption>Minecraft builds</figcaption></figure>
+    <figure class="photo-placeholder"><div><img src="{{ '/assets/photos/trivia.jpeg' | relative_url }}" alt="Nathen at trivia night" onload="this.nextElementSibling.hidden=true" onerror="this.hidden=true"><span>Photo 03</span></div><figcaption>Trivia nights</figcaption></figure>
+    <figure class="photo-placeholder"><div><img src="{{ '/assets/photos/seattle.jpeg' | relative_url }}" alt="Nathen exploring Seattle" onload="this.nextElementSibling.hidden=true" onerror="this.hidden=true"><span>Photo 04</span></div><figcaption>Life around Seattle</figcaption></figure>
   </div>
 </section>
