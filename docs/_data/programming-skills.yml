@@ -1,0 +1,15 @@
+- name: Python (NumPy, SciPy, Matplotlib, Seaborn)
+  percentage: 90
+  color: primary
+
+- name: MATLAB
+  percentage: 80
+  color: info
+
+- name: Java & C++
+  percentage: 78
+  color: success
+
+- name: Bash & data workflows
+  percentage: 75
+  color: secondary

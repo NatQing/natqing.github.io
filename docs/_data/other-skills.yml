@@ -1,0 +1,15 @@
+- name: Protein design & purification
+  percentage: 88
+  color: primary
+
+- name: Molecular biology & cell culture
+  percentage: 85
+  color: success
+
+- name: CAD, COMSOL & bioprinting
+  percentage: 82
+  color: info
+
+- name: Microscopy & spectroscopy
+  percentage: 76
+  color: secondary

@@ -1,0 +1,34 @@
+<nav class="navbar navbar-expand-lg navbar-themed portfolio-navbar">
+  <a class="navbar-brand" href="{{ '/' | relative_url }}"><h5><b>{{ site.title }}</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto">
+      {%- assign html_pages = site.html_pages | sort: 'weight' -%}
+      {%- for html_page in html_pages -%}
+        {%- assign excluded = false -%}
+        {%- for exclude_path in site.nav_exclude -%}
+          {%- if exclude_path == html_page.path -%}{%- assign excluded = true -%}{%- endif -%}
+          {%- if exclude_path contains '**' -%}
+            {%- assign match = exclude_path | remove: '**' -%}
+            {%- if html_page.path contains match -%}{%- assign excluded = true -%}{%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
+        {%- unless excluded -%}
+          {%- assign active_status = '' -%}
+          {%- if page.url contains html_page.url -%}{%- assign active_status = 'active' -%}{%- endif -%}
+          {%- if html_page.external_url -%}{%- assign nav_url = html_page.external_url -%}{%- else -%}{%- assign nav_url = html_page.url | relative_url -%}{%- endif -%}
+          <a class="nav-item nav-link {{ active_status }}" href="{{ nav_url }}">{{ html_page.title }}</a>
+        {%- endunless -%}
+      {%- endfor -%}
+    </div>
+  </div>
+
+  <button id="theme-toggler" class="theme-switch" type="button" onclick="toggleTheme()" aria-label="Switch light or dark theme">
+    <span class="theme-icon theme-moon" aria-hidden="true">🌙</span>
+    <span class="theme-icon theme-sun" aria-hidden="true">☀️</span>
+  </button>
+</nav>

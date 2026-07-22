@@ -1,0 +1,5 @@
+source "https://rubygems.org"
+
+gem "github-pages", group: :jekyll_plugins
+gem "ffi", "< 1.17" # macOS system Ruby compatibility for local previews
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
