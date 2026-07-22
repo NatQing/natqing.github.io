@@ -32,7 +32,7 @@ weight: 1
     <p>I contributed to the research and wet-lab teams behind the gold-medal Might Moieties project, then worked on designing and testing de novo competitive inhibitors for ExoA secretion proteins.</p>
   </section>
   <section class="research-entry">
-    <h2>Intravascular topology modeling</h2>
+    <h2>Pulmonary Artery topology modeling</h2>
     <p class="research-meta">UW Medicine Zheng Lab · June 2024–September 2024</p>
     <p>With Dr. Sam Reyner, I modeled microscopic functional intravascular topologies to help characterize vascular structure and behavior.</p>
   </section>
